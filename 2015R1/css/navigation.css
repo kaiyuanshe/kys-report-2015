@@ -1,0 +1,131 @@
+@charset "utf-8";
+
+.clearFix {
+	clear:both;
+}
+
+#NavRealBody{
+	position:absolute;
+	z-index: 5;				/* Place the new body above the background image */
+	overflow:auto; 			/* restore scrollbars for the content */
+	top: 12%;
+	left: 5%;
+	height:100%;
+	width:100%;	/* Make the new body fill the screen */
+}
+
+#NavContent {
+	position: absolute;
+	width: 100%;
+	height:1056px;
+	/*background:url('../img/2_021.png') no-repeat bottom center;*/
+}
+
+#NavMain {
+	width:1445px;
+	height:768px;
+	margin:0 auto;
+}
+
+#NavLeft {
+	width:1350px;
+	height:768px;
+	float:left;
+}
+
+.a1 {
+	width:180px;
+	height:180px;
+	padding:0 10px 10px 0;
+	float:left;
+	background: #F0F0F0;
+}
+
+.b1 {
+	width:180px;
+	height:180px;
+	padding:0 10px 10px 0;
+	float:left;
+	background: #FFFFFF;
+}
+
+#r11,#r12,#r13,#r14,#r15,#r16,#r17,#r21,#r22,#r23,#r24,#r25,#r26,#r27,#r31,#r32,#r33,#r34,#r35,#r36,#r37,#r41,#r42,#r43,#r44,#r45,#r46,#r47{
+	width:180px;
+	height:180px;
+	float:left;
+	filter:alpha(opacity=90);  
+    -moz-opacity:0.9;  
+    -khtml-opacity: 0.9;  
+    opacity: 0.9;
+}
+
+#r14 {
+	background-color:#30a1d4;
+	background: url('../img/rect-a.png');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+#r16 {
+	background-color:#d5e0af;
+}
+
+#r22 {
+	
+	background: url('../img/rect-b.png');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+#r35 {
+	
+	background: url('../img/rect-c.png');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+#r41 {
+	background-color:#e2caa0;
+}
+
+#r43 {
+	
+	background: url('../img/rect-d.png');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+section.navigation .NavBlockLink {
+	display: block;
+}
+
+section.navigation .NavBlockTextHead {
+    float: left;
+    line-height:1px;
+    font-family: Microsoft YaHei;
+    font-size: 22px;
+    font-weight: bold;
+    width:100%;
+    text-align:center;
+    margin-top: 30%;
+}
+
+section.navigation .NavBlockTextBold {
+    float: left;
+    font-family: Microsoft YaHei;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 2em;
+    width:100%;
+    text-align:center;
+    margin-top: 10px;
+}
+section.navigation .NavBlockText {
+    line-height:1.7em;
+    float: left;
+    font-family: Microsoft YaHei;
+    font-size: 14px;
+    font-weight: normal;
+    width:100%;
+    text-align:center;
+}
